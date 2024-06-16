@@ -1,0 +1,319 @@
+{
+  "spider": "./dm.jar;md5;ab9462dae7ab186527c41a163641cf14",
+  "wallpaper": "空",
+  "sites": [
+    {
+      "key": "drpy_js_58动漫",
+      "name": "动漫 | 58动漫",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/58动漫.js"
+    },
+    {
+      "key": "动漫直链",
+      "name": "动漫 | 动漫巴士",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./lib/dm84.json"
+    },
+    {
+      "key": "drpy_js_AnFuns",
+      "name": "动漫 | AnFuns",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/AnFuns.js"
+    },
+    {
+      "key": "异世界",
+      "name": "动漫 | 异世界",
+      "type": 3,
+      "api": "./lib/drpy.min.js",
+      "ext": "./lib/异世界动漫.js"
+    },
+    {
+      "key": "drpy_js_Anime1动畫",
+      "name": "动漫 | Anime1动畫",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/Anime1动畫.js"
+    },
+    {
+      "key": "drpy_js_NT动漫",
+      "name": "动漫 | NT动漫",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/NT动漫.js"
+    },
+    {
+      "key": "drpy_js_NyaFun",
+      "name": "动漫 | NyaFun",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/NyaFun.js"
+    },
+    {
+      "key": "drpy_js_爱弹幕",
+      "name": "动漫 | 爱弹幕",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/爱弹幕.js"
+    },
+    {
+      "key": "drpy_js_动漫岛",
+      "name": "动漫 | 动漫岛",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/动漫岛.js"
+    },
+    {
+      "key": "drpy_js_路漫漫",
+      "name": "动漫 | 路漫漫",
+      "type": 3,
+      "style": {
+        "type": "rect",
+        "ratio": 1.485
+      },
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/路漫漫.js"
+    },
+    {
+      "key": "drpy_js_奇米动漫",
+      "name": "动漫 | 奇米动漫",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/奇米动漫.js"
+    },
+    {
+      "key": "drpy_js_去看吧",
+      "name": "动漫 | 去看吧",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/去看吧.js"
+    },
+    {
+      "key": "drpy_js_曲奇动漫",
+      "name": "动漫 | 曲奇动漫",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/曲奇动漫.js"
+    },
+    {
+      "key": "drpy_js_异世界动漫漫",
+      "name": "动漫 | 异世界动漫",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/异世界动漫.js"
+    },
+    {
+      "key": "drpy_js_怡萱动漫",
+      "name": "动漫 | 怡萱动漫",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/怡萱动漫.js"
+    },
+    {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "api": "csp_Push",
+      "playerType": "1",
+      "searchable": 0,
+      "ext": "https://www.czzy66.com"
+    }
+  ],
+  "parses": [
+    {
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "1号",
+      "type": 1,
+      "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
+      }
+    },
+    {
+      "name": "2号",
+      "type": 1,
+      "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
+      }
+    }
+  ],
+  "lives": [],
+  "rules": [
+    {
+      "name": "♻️非凡",
+      "hosts": [
+        "ffzy"
+      ],
+      "regex": [
+        "18.0"
+      ]
+    },
+    {
+      "name": "♻️量子",
+      "hosts": [
+        "lz"
+      ],
+      "regex": [
+        "17.2",
+        "19.84"
+      ]
+    },
+    {
+      "name": "♻️乐视",
+      "hosts": [
+        "leshiyun"
+      ],
+      "regex": [
+        "15.92"
+      ]
+    },
+    {
+      "name": "♻️优质",
+      "hosts": [
+        "yzzy"
+      ],
+      "regex": [
+        "18.66",
+        "19.52",
+        "19.13"
+      ]
+    },
+    {
+      "name": "♻️YQK",
+      "hosts": [
+        "ydd"
+      ],
+      "regex": [
+        "18.4",
+        "15.1666",
+        "16.5333"
+      ]
+    },
+    {
+      "name": "♻️快看",
+      "hosts": [
+        "kuaikan"
+      ],
+      "regex": [
+        "15.32",
+        "15.231"
+      ]
+    },
+    {
+      "name": "♻️暴风",
+      "hosts": [
+        "bf"
+      ],
+      "regex": [
+        "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"
+      ]
+    },
+    {
+      "name": "农民嗅探",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "name": "hs",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "dy",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "cl",
+      "hosts": [
+        "magnet"
+      ],
+      "regex": [
+        "最 新",
+        "直 播",
+        "更 新"
+      ]
+    }
+  ]
+}
